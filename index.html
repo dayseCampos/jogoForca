@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Forca</title>
+
+    <link rel="icon" href="img/icon.png">
+
+</head>
+
+<body>
+    <main>
+        <section class="forca">
+            <div class="boneco">
+                <canvas width="600" height="300"></canvas>
+            </div>
+
+            <textarea id="input" model="input" autofocus placeholder="Digite seu texto"
+                style="display: none;"></textarea>
+
+            <div class="palavra" id="palavra">
+                
+            </div>
+
+            <div class="letras-erradas" id="letras-erradas">
+            </div>
+
+        </section>
+
+        <section class="botoes">
+            <button id="iniciar-jogo">Iniciar jogo</button>
+            <button id="nova-palavra">Adicionar nova palavra</button>
+        </section>
+    </main>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
